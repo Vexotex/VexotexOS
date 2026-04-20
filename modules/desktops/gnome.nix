@@ -1,0 +1,19 @@
+{ self, ... }: {
+
+    flake.nixosModules.DesktopGnome = { ... }: {
+
+        services.xserver.enable = true;
+
+        services.displayManager.gdm.enable = true;
+        services.desktopManager.gnome.enable = true;
+
+        services.xserver.xkb = {
+            layout = "de";
+            variant = "";
+        };
+
+        console.keyMap = "de";
+
+    };
+
+}
