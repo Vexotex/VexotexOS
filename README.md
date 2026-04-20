@@ -18,9 +18,12 @@ VexotexOS/
     ├── homeModules.nix              # Deklariert flake.homeModules als Option
     ├── home/
     │   ├── git.nix                  # programs.git → generiert ~/.gitconfig
-    │   └── gh.nix                   # programs.gh → generiert ~/.config/gh/config.yml
+    │   ├── gh.nix                   # programs.gh → generiert ~/.config/gh/config.yml
+    │   └── ghostty.nix              # Terminal, dconf-Shortcuts, Systemstandard
     ├── system/
-    │   └── networking.nix           # NetworkManager + WiFi-Profile
+    │   ├── networking.nix           # NetworkManager + WiFi-Profile
+    │   ├── pipewire.nix             # Audio
+    │   └── languages.nix            # Programmiersprachen / Runtimes
     └── users/
         └── vexotex.nix              # Unix-User mit sudo und networkmanager
 ```
@@ -73,7 +76,7 @@ Alle Dateien in `hosts/` und `modules/` werden von `import-tree` automatisch ein
 ## System neu aufsetzen
 
 ```bash
-git clone <repo>
+git clone git@github.com:Vexotex/VexotexOS.git
 cd VexotexOS
 sudo nixos-rebuild switch --flake .#Laptop
 ```
@@ -82,5 +85,4 @@ Beim ersten Start nach eduroam-WLAN fragen — NetworkManager speichert das Pass
 
 ## Offene Punkte
 
-- **SSH-Key für GitHub** — einmalig: `ssh-keygen -t ed25519` + `gh auth login`
 - **sops-nix** — für Secrets die tatsächlich in der Nix-Config referenziert werden müssen
