@@ -1,6 +1,6 @@
 { self, ... }: {
 
-    flake.nixosModules.DesktopGnome = { ... }: {
+    flake.nixosModules.Gnome = { ... }: {
 
         services.xserver.enable = true;
 
