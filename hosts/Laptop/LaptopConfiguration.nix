@@ -23,6 +23,9 @@
         # Enable touchpad support (enabled default in most desktopManager).
         # services.xserver.libinput.enable = true;
 
+        programs.xwayland.enable = true;
+        programs.niri.enable = true;
+
         # Notwendig damit vorkompilierte Fremdbinaries laufen, die nicht für NixOS gebaut wurden. Betrifft z.B. VSCode-Extensions, Sprachserver (LSPs), heruntergeladene CLI-Tools.
         programs.nix-ld.enable = true;
 

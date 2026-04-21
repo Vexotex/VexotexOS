@@ -4,6 +4,8 @@
 
         networking.networkmanager.enable = true;
 
+        hardware.bluetooth.enable = true;
+
         networking.networkmanager.ensureProfiles.profiles = {
             eduroam = {
                 connection = {
