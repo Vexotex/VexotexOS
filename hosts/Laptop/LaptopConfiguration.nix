@@ -52,6 +52,9 @@
             uv
             ollama
 
+            # compatability with win
+            wineWow64Packages.stable
+
             # CLI tools
             curl # Command-line tool for transferring data with URLs.
             vim
