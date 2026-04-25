@@ -4,7 +4,7 @@
 
         home-manager.useGlobalPkgs = true;
         home-manager.useUserPackages = true;
-        home-manager.users.vexotex = self.homeModules.LaptopHome;
+        home-manager.users.lordhase = self.homeModules.RobertLaptopHome;
 
         nix.settings.experimental-features = [ "nix-command" "flakes" ];
 
@@ -12,7 +12,7 @@
         boot.loader.systemd-boot.enable = true;
         boot.loader.efi.canTouchEfiVariables = true;
 
-        networking.hostName = "VexOS";
+        networking.hostName = "LordsServant";
 
         # Set your time zone.
         time.timeZone = "Europe/Berlin";
@@ -46,25 +46,13 @@
 
             # dev Apps
             vscode
-            stm32cubemx
-            # dev tools
-            nodejs
-            uv
-            ollama
 
             # compatability with win
             wineWow64Packages.stable
 
             # CLI tools
-            curl # Command-line tool for transferring data with URLs.
+            curl 
             vim
-            neovim
-            fd # Fast file finder.
-            ripgrep # Fast search tool, alternative to grep.
-            htop # Interactive process viewer.
-            gotop
-            tree # Display directory structure in a tree-like format.
-            openssl # Cryptographic library, that implements the SSL and TLS protocols and provides various cryptographic algorithms.
         ];
 
         system.stateVersion = "25.11";
