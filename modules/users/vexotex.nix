@@ -8,7 +8,5 @@
             extraGroups = [ "networkmanager" "wheel" ];
         };
 
-        services.fprintd.enable = true;
-
     };
 }
