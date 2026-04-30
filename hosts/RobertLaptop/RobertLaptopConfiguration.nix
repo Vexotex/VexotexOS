@@ -44,9 +44,6 @@
             obsidian
             localsend
 
-            # dev Apps
-            vscode
-
             # compatability with win
             wineWow64Packages.stable
 

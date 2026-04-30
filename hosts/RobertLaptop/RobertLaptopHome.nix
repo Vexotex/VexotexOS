@@ -2,8 +2,8 @@
 
     flake.homeModules.RobertLaptopHome = { ... }: {
 
-        home.username = "vexotex";
-        home.homeDirectory = "/home/vexotex";
+        home.username = "lordhase";
+        home.homeDirectory = "/home/lordhase";
         home.stateVersion = "25.11";
 
         imports = [
