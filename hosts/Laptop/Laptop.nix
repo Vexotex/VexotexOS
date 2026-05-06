@@ -10,6 +10,7 @@
         self.nixosModules.Languages # Sprach- und Regionseinstellungen
         self.nixosModules.Pipewire # Audio
         self.nixosModules.Gnome # Desktop-Umgebung
+        self.nixosModules.Matlab # MATLAB R2026a
         inputs.sops-nix.nixosModules.sops # Verschlüsselung von Konfigurationsdateien
         inputs.home-manager.nixosModules.home-manager
       ];
