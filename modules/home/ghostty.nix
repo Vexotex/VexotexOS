@@ -7,6 +7,10 @@
             enableBashIntegration = true;
             settings = {
                 font-size = 18;
+                
+                cursor-style = "block";
+
+
             };
         };
 
