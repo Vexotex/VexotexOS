@@ -43,11 +43,13 @@
             spotify
             obsidian
             localsend
+            webex
 
             # dev Apps
             vscode
             stm32cubemx
             # dev tools
+            wget
             nodejs
             uv
             ollama
@@ -59,6 +61,7 @@
             curl # Command-line tool for transferring data with URLs.
             vim
             neovim
+            unzip
             fd # Fast file finder.
             ripgrep # Fast search tool, alternative to grep.
             htop # Interactive process viewer.
