@@ -12,9 +12,10 @@
         boot.loader.systemd-boot.enable = true;
         boot.loader.efi.canTouchEfiVariables = true;
 
+	# virtualbox
 	virtualisation.virtualbox.host.enable = true;
 	virtualisation.virtualbox.host.enableExtensionPack = true;
-
+	users.extraGroups.vboxusers.members = [ "vexotex" ];
 
         networking.hostName = "VexOS";
 
