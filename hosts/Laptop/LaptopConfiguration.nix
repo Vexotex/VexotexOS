@@ -12,6 +12,10 @@
         boot.loader.systemd-boot.enable = true;
         boot.loader.efi.canTouchEfiVariables = true;
 
+	virtualisation.virtualbox.host.enable = true;
+	virtualisation.virtualbox.host.enableExtensionPack = true;
+
+
         networking.hostName = "VexOS";
 
         # Set your time zone.
