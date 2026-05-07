@@ -44,6 +44,8 @@
             obsidian
             localsend
             webex
+	    libreoffice
+	    gnomeExtensions.virtualbox-applet
 
             # dev Apps
             vscode
