@@ -15,7 +15,7 @@
 	# virtualbox
 	virtualisation.virtualbox.host.enable = true;
 	virtualisation.virtualbox.host.enableExtensionPack = true;
-	users.extraGroups.vboxusers.members = [ "vexotex" ];
+	users.extraGroups.vboxusers.members = [ "Vexotex" ];
 
         networking.hostName = "VexOS";
 
