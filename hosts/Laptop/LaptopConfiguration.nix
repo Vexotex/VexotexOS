@@ -45,7 +45,7 @@
             localsend
             webex
 	    libreoffice
-	    gnomeExtensions.virtualbox-applet
+	    virtualbox
 
             # dev Apps
             vscode
