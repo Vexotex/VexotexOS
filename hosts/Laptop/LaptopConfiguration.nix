@@ -50,7 +50,6 @@
             localsend
             webex
 	    libreoffice
-	    virtualbox
 
             # dev Apps
             vscode
