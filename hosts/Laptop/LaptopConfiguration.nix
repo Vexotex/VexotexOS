@@ -63,7 +63,7 @@
             neovim
             unzip
             fd # Fast file finder.
-            fzf # Command-line fuzzy finder.
+            fzf
             ripgrep # Fast search tool, alternative to grep.
             htop # Interactive process viewer.
             gotop
