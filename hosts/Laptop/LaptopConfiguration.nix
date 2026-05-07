@@ -16,10 +16,7 @@
 	virtualisation.virtualbox.host.enable = true;
 	virtualisation.virtualbox.host.enableExtensionPack = true;
 	users.extraGroups.vboxusers.members = [ "Vexotex" ];
-	virtualisation.virtualbox.guest = {
-	  enable = true;
-	  x11 = true; # falls du eine grafische Oberfläche nutzt
-	};
+	virtualisation.virtualbox.guest.enable = true;
 
         networking.hostName = "VexOS";
 
