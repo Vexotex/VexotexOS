@@ -55,6 +55,7 @@
             # dev Apps
             vscode
             stm32cubemx
+	    claude-code
             # dev tools
             wget
             nodejs
