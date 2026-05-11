@@ -9,7 +9,7 @@
                 font-size = 18;
                 cursor-style = "block";
 		
-		theme = "Miasma"
+		theme = "Miasma";
 
             };
         };
