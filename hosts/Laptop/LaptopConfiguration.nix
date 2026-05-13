@@ -50,15 +50,17 @@
             obsidian
             localsend
             webex
-	    libreoffice
+            libreoffice
 
             # dev Apps
             vscode
             stm32cubemx
-	    claude-code
+            claude-code
             # dev tools
             wget
             nodejs
+            go
+            rustc
             uv
             ollama
 
