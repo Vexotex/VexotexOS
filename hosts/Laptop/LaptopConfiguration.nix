@@ -67,6 +67,7 @@
             go
             rustc
             uv
+            python3
             ollama
 
             # compatability with win
