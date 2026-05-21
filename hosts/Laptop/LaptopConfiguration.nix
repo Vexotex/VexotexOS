@@ -59,6 +59,7 @@
             jetbrains.pycharm
             jetbrains.clion
             jetbrains.goland
+            jetbrains.idea
             jetbrains.datagrip
 
             # dev tools
