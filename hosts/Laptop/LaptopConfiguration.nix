@@ -56,6 +56,11 @@
             vscode
             stm32cubemx
             claude-code
+            jetbrains.pycharm
+            jetbrains.clion
+            jetbrains.goland
+            jetbrains.datagrip
+
             # dev tools
             wget
             nodejs
