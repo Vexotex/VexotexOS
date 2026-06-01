@@ -26,6 +26,11 @@
         # Enable CUPS to print documents.
         services.printing.enable = true;
 
+        services.mysql = {
+            enable = true;
+            package = pkgs.mariadb;
+        };
+
         # Enable touchpad support (enabled default in most desktopManager).
         # services.xserver.libinput.enable = true;
 
